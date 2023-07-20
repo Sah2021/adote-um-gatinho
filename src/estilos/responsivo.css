@@ -1,0 +1,50 @@
+@media (max-width: 1120px) {
+  .conteudo-total {
+    width: 95%;
+  }
+  .selecao-de-gatos {
+    flex-direction: column-reverse;
+    max-width: 430px;
+    margin: 0 auto;
+  }
+
+  .selecao-de-gatos .gatos {
+    margin-top: 30px;
+  }
+
+  .selecao-de-gatos .gatos .titulo, .footer .titulo {
+    font-size: 15px;
+  }
+
+  .selecao-de-gatos .lista-de-gatos {
+    gap: 9px;
+    padding-bottom: 40px;
+    padding: 15px;
+  }
+
+  .selecao-de-gatos .gato img {
+    width: 80px;
+  }
+
+  .gato-selecionado .gato-grande {
+    width: 300px;
+    height: 300px;
+  }
+
+  .gato-selecionado .descricao-gato {
+    width: 80%;
+    font-size: 16px;
+    margin: 20px auto;
+  }
+  .tam-img {
+    width: 40px;
+  }
+
+  .footer .criado-por {
+    font-size: 3vw;
+  }
+  .footer img {
+    width: 100%;
+  }
+
+}

@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,200;0,500;0,700;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+:root {
+  --cor01:#F2AA80;
+  --cor02:#F2E6DF;
+  --cor03:#735E56;
+  --cor04:#F2937E;
+  --cor05:#0D0D0D;
+}
+body {
+  background-color: var(--cor02);
+  color: var(--cor05);
+  font-family: 'Fahkwang', sans-serif;
+}
+.conteudo-total {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  box-shadow: 2px 2px 10px var(--cor05);
+}
+
+.cabecalho {
+  text-align: center;
+  justify-content: center;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 1.5em;
+  padding: 30px; 
+  color: #735E56;
+  text-shadow: 1px 1px  var(--cor05);
+}
+
+.selecao-de-gatos {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  gap: 30px;
+  min-height: calc(100vh - 152px);
+  justify-content: center;  
+}
+
+.selecao-de-gatos .lista-de-gatos {  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.selecao-de-gatos .gatos { 
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  gap: 25px;
+}
+
+.selecao-de-gatos .gatos .titulo, .footer .titulo {
+  font-size: 20px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--cor03);
+  width: 100%;
+  text-align: center;
+}
+
+.lista-de-gatos .gato img {
+  width: 100%;
+  height: 100%;
+}
+
+.lista-de-gatos .gato.selecionado {
+  box-shadow: 0px 0px 20px 5px var(--cor01);
+}
+
+.gato-selecionado {
+  text-align: center;
+  max-height: 530px;
+}
+
+.gato-selecionado .gato-grande {
+  width: 430px;
+  height: 430px;
+}
+
+.gato-selecionado .nome-gato {
+  border-bottom: 2px solid var(--cor03);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.gato-selecionado .descricao-gato {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 20px;
+  width: 420px;
+}
+
+.footer {
+  background-color: white;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px;
+}
+
+.pt {
+  padding-top: 10px;
+}
+
+.align-center{
+  text-align: center;
+}
+
+.footer a{
+  color: var(--cor03);
+}
+
+.footer a:hover {
+  color: var(--cor04);
+}
+
+.midias-sociais {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.email img.img-hover,
+.facebook img.img-hover,
+.instagram img.img-hover {
+  display: none;
+} 
+
+.email:hover img.img-midias,
+.facebook:hover img.img-midias,
+.instagram:hover img.img-midias {
+  display: none;
+  transition: 0.2s ease-in-out; 
+}
+
+.email:hover img.img-hover,
+.facebook:hover img.img-hover,
+.instagram:hover img.img-hover {
+  display:inherit;
+  transform: scale(1.08);
+}
+
+.footer .criado-por {
+  font-size: 1em;
+}
+
+.footer img {
+  width: 80%;
+  padding: 20px 0px 5px 0px; 
+}

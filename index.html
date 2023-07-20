@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./src/estilos/reset.css">
+  <link rel="stylesheet" href="./src/estilos/styles.css">
+  <link rel="stylesheet" href="./src/estilos/responsivo.css">
+  
+  <script src="./src/js/script.js" defer></script>
+  <script src="./src/js/muda-midia.js" defer></script>
+
+  <title>Adote um gatinho</title>
+
+</head>
+<body>
+  <div class="conteudo-total">
+    <header class="cabecalho">
+      <h1>Amigo não se compra, se adota!</h1>
+    </header>
+    <main class="selecao-de-gatos">
+      <section class="gatos">
+        <h1 class="titulo">Escolha seu novo Amigo</h1>
+        <ul class="lista-de-gatos">
+
+          <li class="gato selecionado" id="amoreco"
+          data-name="Amoreco"
+          data-description="Aproximadamente 2 anos. Amoroso, ronronento, brincalhão, ama colo e carinho. Gosta de ser filho único. Quer ser meu humano?">
+            <img src="./src/imagens/card-amoreco.jpg" alt="Gatinho Amoreco">
+          </li>
+
+          <li class="gato" id="celeste"
+          data-name="Celeste" 
+          data-description="Aproximadamente 3 anos. Sou uma gatinha jovem e bem sensível. Trago dentro do meu coração algumas lembranças das dificuldades das ruas, por isso não confio de imediato nos seres humanos que não conheço. Sou uma gatinha dócil e desconfiada.
+          Tenho minha filhinha que também espera pra ser adotada. Que tal nos adotar juntas?">
+            <img src="./src/imagens/card-celeste.jpg" alt="Gatinha Celeste">
+          </li>
+
+          <li class="gato" id="emanuel"  data-name="Emanuel"
+          data-description="Vivi minha vida toda nas ruas e isso maltrata bastante da gente. a vida nas ruas não é fácil e infelizmente ela me deixou uma marquinha: sou um gatinho FIV+. Estou muito bem de saúde, sou um gato bem tranquilo, porém bem medroso e assustado.
+          Será que tem um lugar no seu coração para um gatão como eu?">
+            <img src="./src/imagens/card-emanuel.jpg" alt="Gatinho Emanuel">
+          </li>
+
+          <li class="gato" id="kikan"  data-name="Kikan"
+          data-description="Quer conhecer uma laranjinha docinha? Sou assustada e medrosa, demoro pra confiar nas pessoas. Por conta disso, prefiro casas sem crianças ou cachorros. Mas, cheguei para melhorar a sua vida, me adota!">
+            <img src="./src/imagens/card-kikan.jpg" alt="Gatinho Kikan">
+          </li>
+
+          <li class="gato" id="manita"  data-name="Manita"
+          data-description="Passei por alguns traumas e por isso sou assustada e insegura. Confiar em seres humanos é difícil para mim. Crianças e cachorros me assustam, mas merece uma chance de ter um lar. 
+          Me leva pra sua casa, por favor!">
+            <img src="./src/imagens/card-manita.jpg" alt="Gatinha Manita">
+          </li>
+
+          <li class="gato" id="mescla"  data-name="Mescla"
+          data-description="Estou no abrigo e sou super carinhosa e doce! Adoro cafuné e que me escovem, e retribuo amassando pãozinho no ar. Sou boa de garfo também, adoro um sachêzinho e biscoitos, e minha cinturinha está cada vez mais redonda, rs. Que tal vivermos juntos para sempre? ">
+            <img src="./src/imagens/card-mescla.jpg" alt="Gatinha Mescla">
+          </li>
+
+          <li class="gato" id="otto"  data-name="Otto"
+          data-description="O lugar onde eu morava anteriormente era sujo, assim como meus potinhos de água e ração, e minha comida era péssima. Nesse lugar, eu não era querido: me batiam, não me deixavam usar a caixa de areia, e me acusavam de ser mal encarado e com cara de bravo.Sou feliz aqui, mas espero uma família. Sou muito amoroso, ronronento e brincalhão! Quer ser minha família?">
+            <img src="./src/imagens/card-otto.jpg" alt="Gatinho Otto">
+          </li>
+
+          <li class="gato" id="panterinha"  data-name="Panterinha"
+          data-description="Gosto de pensar que sou uma pantera negra. Gosto de pessoas, mas com amigatos ainda estranho um pouco. Por isso prefiro viver com um ou dois gatinhos, bem receptivos. Me dá uma chance?">
+            <img src="./src/imagens/card-panterinha.jpg" alt="Gatinho Panterinha">
+          </li>
+
+          <li class="gato" id="raulzito"  data-name="Raulzito"
+          data-description="Sou um gatinho especial.  Não tenho minha patinha direita dianteira. Gosto de humanos e estou pronto para ser amado assim como sou. Se você não tem nada contra um pernetinha, podemos ser amigos!">
+            <img src="./src/imagens/card-raulzito.jpg" alt="Gatinho Especial Raulzito">
+          </li>
+        </ul>
+      </section>
+
+      <section class="gato-selecionado">
+
+        <img class="gato-grande" src="./src/imagens/card-amoreco.png" alt="Gato Selecionado">
+
+        <div class="informacoes-gato">
+          <h2 class="nome-gato" id="nome-gato">Amoreco</h2>
+          <p class="descricao-gato" id="descricao-gato">
+            Macho, preto e branco, pelagem curta, olhos verdes. Aproximadamente 2 anos. Amoroso, ronronento, brincalhão, ama colo e carinho. Gosta de ser filho único. Quer ser meu humano?
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <h3 class="titulo">Siga o <strong>AUG</strong></h3>
+      <p class="pt align-center">Todos esses gatos estão para adoção na ong</p>
+      <p><a href="http://adoteumgatinho.com.br/" target="_blank">Adote um gatinho</a></p>
+
+      <div class="midias-sociais">
+
+        <div class="email">
+          <a href="mailto:informacoes@adoteumgatinho.org.br">
+            <img class="img-midias tam-img" src="./src/imagens/email1.png" alt="E-mail" id="img-email1">
+            <img class="img-hover tam-img" id="img-email2" src="./src/imagens/email2.png">
+          </a>
+        </div>
+
+        <div class="facebook">
+          <a href="https://www.facebook.com/adoteumgatinho" target="_blank">
+            <img class="img-midias tam-img" src="./src/imagens/facebook1.png" alt="Facebook" id="img-facebook1">
+            <img class="img-hover tam-img" src="./src/imagens/facebook2.png" alt="Facebook" id="img-facebook2">
+          </a>
+        </div>
+
+        <div class="instagram">
+          <a href="https://www.instagram.com/adoteumgatinho/?hl=pt-br" target="_blank">
+            <img class="img-midias tam-img"
+            src="./src/imagens/instagram1.png" alt="Instagram" id="img-instagram1">
+            <img class="img-hover tam-img"
+            src="./src/imagens/instagram2.png" alt="Instagram" id="img-instagram2">
+          </a>
+        </div>
+
+      </div>
+
+      <img src="./src/imagens/gatinhos-fundo.png" alt="Imagem de gatinhos">
+      <h4 class="criado-por">Site criado por <a href="https://github.com/Sah2021" target="_blank">Salete dos Santos</a></h4>
+    
+    </footer>
+  </div>
+  
+</body>
+</html>
