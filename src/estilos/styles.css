@@ -9,6 +9,7 @@
   --cor03:#735E56;
   --cor04:#F2937E;
   --cor05:#0D0D0D;
+  --cor06:#0b679a;
 }
 body {
   background-color: var(--cor02);
@@ -18,8 +19,12 @@ body {
 .conteudo-total {
   width: 80%;
   margin: auto;
-  background-color: white;
-  box-shadow: 2px 2px 10px var(--cor05);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 10px var(--cor05);  
+  background-image: url(../imagens/quadriculado-fundo.png);
+  background-repeat: repeat;
+  background-size: 100%;
+  background-position: center;
 }
 
 .cabecalho {
@@ -28,7 +33,7 @@ body {
   font-family: 'Fredericka the Great', cursive;
   font-size: 1.5em;
   padding: 30px; 
-  color: #735E56;
+  color: var(--cor06);
   text-shadow: 1px 1px  var(--cor05);
 }
 
@@ -119,7 +124,7 @@ body {
 }
 
 .footer a{
-  color: var(--cor03);
+  color: var(--cor06);
 }
 
 .footer a:hover {
